@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #F1F6FA;
     margin: 0;
-    background: url(FUNDO-SISTEMA.png);
+    background: url(/Assets/FUNDO-SISTEMA.png);
 }
 
 h1 {

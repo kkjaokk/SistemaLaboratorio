@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: url(/Assets/FUNDO-SISTEMA.png);
+}
+
+.login-container {
+  margin-top: 100px;
+  width: 600px;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  box-sizing: border-box;
+  border: 2px solid #43B1FF;
+}
+
+h2{
+    color: #0056b3;
+}
+
+.dobra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+button {
+  display: inline-block;
+  margin: 20px;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #0056b3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.buttonBack {
+    display: inline-block;
+    margin: 20px;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #a00202;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .buttonBack:hover {
+    background-color: #e40303;
+  }
+
+a {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #43b1ff;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+
+img {
+
+    width: 20%;
+
+}
+
+.alours {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.ALOU {
+    padding: 0 90px;
+    width: 70px;
+    height: 70px;
+}
+
+.esqueci{
+    color: #43B1FF;
+    text-decoration:underline;
+}
+
+.senhaEsqueci{
+    display: flex;
+    padding: 5px;
+}
